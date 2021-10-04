@@ -3,8 +3,7 @@
     margin: 0;
 }
 
-.navbar{
-    padding: 0;
+.navbar {
     background-color: black !important;
 }
 
@@ -13,13 +12,7 @@
     height: 50px;
 }
 
-.navbar-nav {
-    padding: 0 10px;
-}
-
 .navbar-nav .nav-link {
-    color: #fff !important;
-    padding: 0 10px !important;
     float: right;
     text-align: right;
 }
@@ -27,42 +20,33 @@
 .banner {
     background-image: linear-gradient(to bottom, #000, #4c5052, rgb(173, 171, 171), #fff);
     padding: 5%;
-    color: #fff;
 }
 
 .banner h1 {
-    padding: 10px 0;
+    font-size: 4rem;
 }
 
 .banner p {
     text-align: justify;
+    font-size: 1.1rem;
 }
 
 .banner img {
-    width: 450px;
-    height: 475px;
+    width: 330px;
+    height: 375px;
 }
 
 .services {
-    margin-top: 80px;
-    margin-bottom: 130px;
+    margin-top: 70px;
+    margin-bottom: 100px;
 }
 
 .services img {
     border-radius: 10px 10px 0px 0px;
 }
 
-.services .text-part{
+.services .text-part {
     margin-bottom: 80px;
-}
-
-.services .text-part h5 {
-    padding-bottom: 10px;
-}
-
-.services .text-part p {
-    font-size: 1.8rem;
-    margin: 0 20%;
 }
 
 .contact-us {
@@ -87,16 +71,6 @@
 
 .footer {
     background-color: black;
-    padding: 10px;
-    color: white;
-}
-
-.footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-    margin-top: 40px;
 }
 
 .footer .social img {
@@ -124,7 +98,7 @@
     background-position: center;
 }
 
-.services-page .col-md-8 {
+.services-page .col-lg-8 {
     margin: 10px;
     margin-left: 40px;
     padding: 10px;
@@ -132,22 +106,21 @@
 
 .services-page .text-part {
     margin-top: 50px;
-    color: #fff;
 }
 
 .services-page .text-part .row {
     height: 200px;
 }
 
-.services-page .text-part .col-md-6 {
-    padding: 20px 40px;
+.services-page .text-part .col-lg-6 {
+    padding: 0px 40px;
 }
 
 .contact-page {
     padding: 5%;
 }
 
-.about-page .col-md-8 {
+.about-page .col-lg-8 {
     padding: 4%;
 }
 
@@ -163,4 +136,90 @@
     font-size: 2.0rem;
     font-weight: bold;
     margin-bottom: 80px;
+}
+
+.about-page .bg-pic {
+    width: 380px;
+}
+
+.expertise {
+    margin-top: 60px;
+    margin-bottom: 160px;
+}
+
+.customer {
+    margin: 40px 60px;
+}
+
+.customer .row {
+    padding: 60px;
+}
+
+@media (max-width : 768px) {
+    
+    .banner {
+        height: 70vh;
+    }
+
+    .banner h1 {
+        font-size: 2.5rem;
+    }
+    
+    .banner p {
+        font-size: 1.0rem;
+    }
+    
+    .banner img, .about-page .bg-pic {
+        display: none;
+    }
+
+    .services img {
+        width: 400px;
+        height: 400px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer .info {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .services-page .bg-pic, .about-page .bg-pic {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .services-page .col-lg-8 {
+        margin: 0px;
+        margin-left: 0px;
+    }
+    
+    .services-page .text-part {
+        margin-top: 20px;
+    }
+    
+    .services-page .text-part .col-lg-6 {
+        padding: 10px 10px;
+    }
+    
+    .services-page .text-part .row {
+        margin-bottom: 30px;
+    }
+
+    .expertise {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    .expertise .col-lg-6 {
+        margin-bottom: 40px;
+    }
+
+    .customer .col-lg-3 {
+        margin: 20px 0px;
+    }
+    
 }
