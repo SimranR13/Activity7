@@ -158,7 +158,7 @@
 @media (max-width : 768px) {
     
     .banner {
-        height: 70vh;
+        height: 80vh;
     }
 
     .banner h1 {
@@ -174,10 +174,9 @@
         height: 250px;
     }
 
-    .footer .info {
-        width: 100%;
-        margin-top: 40px;
-        margin-bottom: 40px;
+    .services {
+        margin-top: 30px;
+        margin-bottom: 80px;
     }
 
     .services-page .bg-pic, .about-page .bg-pic {
@@ -220,25 +219,36 @@
     .customer .col-lg-3 {
         margin: 20px 0px;
     }
+
+    .footer .info {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
     
 }
 
 @media (max-width : 425px) {
+
+    .banner {
+        height: 70vh;
+    }
 
     .banner img {
         display: none;
     }
 
     .services .text-part {
-        margin: 0px 20px;
+        margin: 0px 10px;
     }
 
     .services .pb-2 {
-        font-size: 1.15rem !important;
+        font-size: 1.1rem !important;
     }
 
     .services .fs-2 {
-        font-size: 1.3rem !important;
+        font-size: 1.45rem !important;
         margin-bottom: 60px;
     }
     
