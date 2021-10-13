@@ -1,44 +1,23 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+/* --------------------------------------------------Home Page------------------------------------------------- */
 
-.navbar {
+.navbar, .footer {
     background-color: black !important;
 }
 
-.navbar .logo {
-    width: 50px;
-    height: 50px;
-}
-
-.navbar-nav .nav-link {
-    float: right;
-    text-align: right;
+.banner, .services-page, .about-page, .contact-page, .about-page .col-lg-8 {
+    padding: 5%;
 }
 
 .banner {
     background-image: linear-gradient(to bottom, #000, #4c5052, rgb(173, 171, 171), #fff);
-    padding: 5%;
 }
 
 .banner h1 {
-    font-size: 4rem;
+    font-size: 3.6rem;
 }
 
 .banner p {
     text-align: justify;
-    font-size: 1.1rem;
-}
-
-.banner img {
-    width: 330px;
-    height: 375px;
-}
-
-.services {
-    margin-top: 70px;
-    margin-bottom: 100px;
 }
 
 .services img {
@@ -50,46 +29,19 @@
 }
 
 .contact-us {
-    background-color: #f8f9fa;
     padding: 100px 0;
+    margin-top: 80px !important;
 }
 
-.contact-us p {
+.contact-us p, .footer .info p {
    font-size: 0.8rem;
-}
-
-.contact-us .text-part {
-    padding-bottom: 30px;
-}
-
-.contact-us .btn-primary, .contact-page .btn-primary {
-    border: none;
-    border-radius: 20px;
-    background-image: linear-gradient(to bottom, #000, #595e61);
-    padding: 8px 25px;
-}
-
-.footer {
-    background-color: black;
-}
-
-.footer .social img {
-    height: 25px;
-    width: 25px;
-    margin: 0 5px;
-}
-
-.footer .info p {
-    font-size: 0.8rem;
 }
 
 .footer .info {
     width: 25%;
 }
 
-.services-page, .about-page {
-    padding: 5%;
-}
+/* --------------------------------------------------Services Page------------------------------------------------- */
 
 .services-page .bg-pic, .about-page .bg-pic {
     width: 300px;
@@ -98,43 +50,17 @@
     background-position: center;
 }
 
-.services-page .col-lg-8 {
-    margin: 10px;
-    margin-left: 40px;
-    padding: 10px;
-}
-
-.services-page .text-part {
-    margin-top: 50px;
-}
-
-.services-page .text-part .row {
-    height: 200px;
-}
-
 .services-page .text-part .col-lg-6 {
     padding: 0px 40px;
 }
 
-.contact-page {
-    padding: 5%;
-}
-
-.about-page .col-lg-8 {
-    padding: 4%;
-}
-
-.about-page h1 {
-    font-weight: lighter;
-}
+/* --------------------------------------------------About Page------------------------------------------------- */
 
 .about-page p {
     width: 90%;
 }
 
 .about-page .words {
-    font-size: 2.0rem;
-    font-weight: bold;
     margin-bottom: 80px;
 }
 
@@ -143,17 +69,10 @@
 }
 
 .expertise {
-    margin-top: 60px;
-    margin-bottom: 160px;
+    margin-bottom: 100px;
 }
 
-.customer {
-    margin: 40px 60px;
-}
-
-.customer .row {
-    padding: 60px;
-}
+/* --------------------------------------------------Responsiveness------------------------------------------------- */
 
 @media (max-width : 768px) {
     
@@ -165,18 +84,9 @@
         font-size: 2.5rem;
     }
     
-    .banner p {
-        font-size: 1.0rem;
-    }
-    
     .banner img {
         width: 225px;
-        height: 250px;
-    }
-
-    .services {
-        margin-top: 30px;
-        margin-bottom: 80px;
+        height: 270px;
     }
 
     .services-page .bg-pic, .about-page .bg-pic {
@@ -184,40 +94,12 @@
         height: 300px;
     }
     
-    .services-page .col-lg-8 {
-        margin: 0px;
-        margin-left: 0px;
-    }
-    
-    .services-page .text-part {
-        margin-top: 20px;
-    }
-    
     .services-page .text-part .col-lg-6 {
         padding: 10px 20px;
     }
     
-    .services-page .text-part .row {
-        margin-bottom: 40px;
-    }
-
     .expertise {
-        text-align: center;
-        margin-top: 20px;
         margin-bottom: 100px;
-    }
-
-    .expertise .col-lg-6 {
-        margin-bottom: 40px;
-    }
-
-    .customer h1 {
-        font-size: 1.9rem;
-        margin-top: 20px;
-    }
-
-    .customer .col-lg-3 {
-        margin: 20px 0px;
     }
 
     .footer .info {
@@ -226,7 +108,6 @@
         margin-bottom: 40px;
     }
 
-    
 }
 
 @media (max-width : 425px) {
@@ -248,33 +129,30 @@
     }
 
     .services .fs-2 {
-        font-size: 1.45rem !important;
-        margin-bottom: 60px;
+        font-size: 1.3rem !important;
+        margin-top: 10px;
+        margin-bottom: 50px;
     }
     
     .services img {
         margin-top: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .about-page .words {
         font-size: 1.6rem;
         margin-bottom: 60px;
     }  
-
-    .expertise {
+    
+    .expertise .mb-md-5 {
         margin-bottom: 60px;
     }
 
-    .customer {
-        margin: 30px;
-    }
-
     .customer h1 {
-        font-size: 1.6rem;
+        font-size: 1.5rem !important;
     }
 
-    .services-page {
+    .services-page, .about-page, .contact-page {
         margin: 30px 0;
     }
 
@@ -282,12 +160,7 @@
         padding: 10px 10px;
     }
 
-    .services-page .text-part .row {
-        margin-bottom: 80px;
-    }
-
     .footer {
         text-align: center;
     }
-    
 }
